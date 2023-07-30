@@ -1,0 +1,34 @@
+/* 
+
+body {
+  margin: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+
+/* 
+#slides {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  font-size: 0;
+  transform: translateX(0);
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  background-color: #cccccc;
+}
+
+.animate {
+  transition: all .5s ease-out;
+}
+
+.slide:nth-child(1) {background-image: url(http://fakeimg.pl/640x480/);}
+.slide:nth-child(2) {background-image: url(http://fakeimg.pl/641x480/);}
+.slide:nth-child(3) {background-image: url(http://fakeimg.pl/642x480/);}
+.slide:nth-child(4) {background-image: url(http://fakeimg.pl/643x480/);}
+.slide:nth-child(5) {background-image: url(http://fakeimg.pl/644x480/);} */ */
