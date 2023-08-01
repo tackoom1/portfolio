@@ -2506,12 +2506,18 @@ select.mobile-device {
 
 
 #main-ld {
-    width: 70px;
-    height: 35px;
+
     overflow: hidden;
     position: absolute;
     top: calc(50% - 17px);
     left: calc(50% - 35px);
+}
+
+#main-ld img {
+    width: 70px;
+    height: 70px;
+    animation: rotate 3s ease-in-out infinite;
+    transform: rotate(-200deg)
 }
 
 #loader {
@@ -2629,9 +2635,15 @@ select.mobile-device {
 
 
 .bio-img-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     flex: 1;
     max-width: 100%;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .bio-img-container img {
@@ -2639,11 +2651,11 @@ select.mobile-device {
     height: auto;
     max-width: 250px;
     margin-bottom: 10px;
+    /* margin-left: 30px; */
+
 }
 
-.bio-img-container h3 {
-    text-align: justify;
-}
+
 
 .bio-img-container p {
     text-align: justify;
@@ -2842,4 +2854,8 @@ footer a {
 
 .issuse-wrap img {
     max-width: 140px !important;
+}
+
+.navbar-nav>li>a {
+    text-transform: uppercase;
 }
