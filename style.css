@@ -2516,11 +2516,22 @@ select.mobile-device {
 #main-ld img {
     width: 70px;
     height: 70px;
-    animation: rotate 3s ease-in-out infinite;
-    transform: rotate(-200deg)
+    animation: enlarge 3s ease-in-out;
+    transform-origin: center;
+    transform: scale(0);
 }
 
-#loader {
+@keyframes enlarge {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* #loader {
     width: 70px;
     height: 70px;
     border-style: solid;
@@ -2532,9 +2543,9 @@ select.mobile-device {
     box-sizing: border-box;
     animation: rotate 3s ease-in-out infinite;
     transform: rotate(-200deg)
-}
+} */
 
-@keyframes rotate {
+/* @keyframes rotate {
     0% {
         border-width: 10px;
     }
@@ -2555,7 +2566,7 @@ select.mobile-device {
     100% {
         border-width: 10px;
     }
-}
+} */
 
 /*------------------------------------------------------------------
     BUTTONS
