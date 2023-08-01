@@ -2614,7 +2614,7 @@ select.mobile-device {
 }
 
 /* Media query for screens with a maximum width of 768px */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .bio-row {
         flex-direction: column;
     }
