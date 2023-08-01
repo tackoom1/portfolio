@@ -2642,58 +2642,20 @@ select.mobile-device {
 
 .social {
     display: flex;
-    flex-direction: row;
-    gap: 5vh;
 }
 
-.tweets-container {
-    white-space: nowrap;
-    overflow: hidden;
-    overflow-x: scroll;
-    position: relative;
-    align-content: center;
-    justify-content: center;
-    max-width: 50%;
-}
-
-.tweets-carousel {
-    display: flex;
-    animation: scrollTweets 20s linear infinite;
-    /* Adjust the duration as needed */
-}
-
-.tweet {
-    display: flex;
-    flex-shrink: 0;
-    margin-right: 20px;
-    width: 50%%;
-    /* Set the desired width for each tweet */
-}
-
-.tweets-container h1 {
-    text-align: start;
-}
-
-@keyframes scrollTweets {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
 
 .instagram {
     white-space: nowrap;
-    max-width: 50%;
+    max-width: 100%;
     overflow: auto;
     position: relative;
     gap: 10px;
 }
 
 .instagram h1 {
-    text-align: starts;
+    text-align: center;
+    margin-bottom: 5vh;
 }
 
 .posts-carousel {
@@ -2704,8 +2666,8 @@ select.mobile-device {
 .posts {
     display: flex;
     flex-shrink: 0;
-    margin-right: 20px;
-    width: 50%%;
+    margin-right: 10px;
+    width: 50%;
 }
 
 
