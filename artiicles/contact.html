@@ -33,6 +33,67 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+<div id="messagePopup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <p id="popupMessage">Message Sent</p>
+    </div>
+</div>
+<script>
+    function showMessagePopup(message) {
+        var popup = document.getElementById("messagePopup");
+        var popupMessage = document.getElementById("popupMessage");
+        popupMessage.innerHTML = message;
+        popup.style.display = "block";
+    }
+
+    function closePopup() {
+        var popup = document.getElementById("messagePopup");
+        popup.style.display = "none";
+    }
+    function clearForm() {
+        document.getElementById("first_name").value = "";
+        document.getElementById("last_name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("phone").value = "";
+        document.getElementById("comments").value = "";
+    }
+
+
+    function validateForm(event) {
+        event.preventDefault(); // Prevent the form from submitting and navigating to another page
+
+        // Get form field values
+        var firstName = document.getElementById("first_name").value;
+        var lastName = document.getElementById("last_name").value;
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+
+        // Validate fields
+        if (firstName === "" || lastName === "" || email === "" || phone === "") {
+            showMessagePopup("Please fill in all fields.");
+            return;
+        }
+
+        // Email validation
+        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email.match(emailPattern)) {
+            showMessagePopup("Please enter a valid email address.");
+            return;
+        }
+
+        // Phone number validation
+        var phonePattern = /^\d{10}$/;
+        if (!phone.match(phonePattern)) {
+            showMessagePopup("Please enter a valid phone number.");
+            return;
+        }
+
+        showMessagePopup("Message Sent");
+        clearForm();
+    }
+</script>
+
 <body>
     <header class="header header_style_01"
         style="    position: absolute;  top: 0;   background-color: #05386B !important;">
@@ -88,7 +149,7 @@
             <div class="col-md-12">
                 <div class="contact_form">
                     <div id="message"></div>
-                    <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                    <form id="contactform" class="row" action="./contact.html" name="contactform" method="post">
                         <fieldset class="row-fluid">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <input type="text" name="first_name" id="first_name" class="form-control"
@@ -112,7 +173,10 @@
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
                                 <button type="submit" value="SEND" id="submit"
-                                    class="btn btn-light btn-radius btn-brd grd1 btn-block">SEND</button>
+                                    class="btn btn-light btn-radius btn-brd grd1 btn-block"
+                                    onclick="validateForm(event)">SEND</button>
+
+
                             </div>
                         </fieldset>
                     </form>
