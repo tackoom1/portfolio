@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Deuba</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- Colors CSS -->
+
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="../css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/custom.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Add your CSS styles here --> <!-- Add your CSS styles here -->
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header class="header header_style_01"
+        style="    position: absolute;  top: 0;   background-color: #05386B !important;">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html">PRAKASH DEUBA</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a data-scroll-nav="0" href="../index.html#main-banner" class="active">Home</a></li>
+                        <li><a data-scroll-nav="1" href="../index.html#about">About </a></li>
+                        <!-- <li><a data-scroll-nav="2" href="#issues">Issues</a></li> -->
+                        <!-- <li><a data-scroll-nav="3" href="#event">Event</a></li> -->
+                        <!-- <li><a data-scroll-nav="4" href="#gallery">Gallery</a></li> -->
+                        <li><a data-scroll-nav="2" href="../index.html#issues">Contributions</a></li>
+                        <!-- <li><a data-scroll-nav="6" href="#blog">Blog</a></li> -->
+                        <li><a data-scroll-nav="7" href="../index.html#contact">Contact</a></li>
+                        <div class="social-media"
+                            style="display: flex; flex-direction: row;margin-top: 10px; gap: 10px;">
+                            <a href="https://www.facebook.com/prakash.deuba"><img src="../icons/facebook.png"
+                                    style="width: 30px; height: 30px;" /></a>
+                            <a href="https://twitter.com/prakash06441314"><img src="../icons/twitter.png"
+                                    style="width: 30px; height: 30px;" /></a>
+                            <a href="https://www.instagram.com/prakashdeuba/?igshid=MzRlODBiNWFlZA%3D%3D"><img
+                                    src="../icons/instagram.png" style="width: 30px; height: 30px;" /></a>
+                            <a href="https://www.tiktok.com/@prakashdeubaforchange"><img src="../icons/tiktok.png"
+                                    style="width: 30px; height: 30px;filter: brightness(0) invert(1);" /></a>
+                            <a href="https://en.wikipedia.org/wiki/Prakash_Bahadur_Deuba"><img src="../icons/social.png"
+                                    style="width: 30px; height: 30px;filter: brightness(0) invert(1);" /></a>
+                            <a href="http://mopid.sudurpashchim.gov.np/"><img src="../icons/mantralaya.png"
+                                    style="width: 30px; height: 30px; border-radius: 50%;" /></a>
+                        </div>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div class="column" style="display: flex; flex-direction: column; width: 65%;">
+
+                <div class="featured-image">
+                    <img src="../pictures/khanepani.png" alt="Article Image">
+                </div>
+                <div class="article-content">
+                    <h1>टिकापुर साना सहरी खानेपानी उपभोक्ता तथा सरसफाई सस्थाको सातौ बार्षिक साधारण सभा </h1>
+
+                    <p>
+                    सुदुर पश्चिम प्रदेशका भौतिक पुर्बाधार बिकास मन्त्री माननीय प्रकाश बहादुर देउवाको प्रमुख आतिथ्यमा सम्पन्न भएको छ |
+                    टिकापुर साना सहरी खानेपानी उपभोक्ता तथा सरसफाई सस्थाले श्रावण १८ गतेका दिन   आफ्नो सातौ बार्षिक साधारण सभा सम्पन्न गरेको छ। 
+
+                यही सन्दर्भमा भौतिक पूर्वाधार तथा विकास मन्त्रि माननीय प्रकाश बहादुर देउबाले टिकापुर क्षेत्रको आर्थिक उत्थान र सामाजिक विकासका लागि खानेपानी , सरसफाई र सिचाईको पूर्वाधार बलियो रहनुपर्ने जोड दिनुभयो। 
+
+              सातौं वार्षिक सभामा संस्थाका साधारण सदस्यहरुको बाक्लो उपस्थिति राखेको थियो भने विविध मिडिया र संचार क्षेत्रका संचारकर्मीको पनि उपस्थिति रहेको थियो। 
+                    </p>
+(*                     <p>Download The PDF Here:</p> *)
+(*                     <a href="/uploads/press-release.pdf" download> *)
+(*                         <button style="background-color: red; color: white; margin-left: 20px;">Download PDF</button> *)
+(*                     </a> *)
+                </div>
+            </div>
+            <div class="articles-you-might-like">
+                <h2>Articles You Might Like</h2>
+                <a href="article6.html" style="text-decoration: none; color: black;">
+                    <div class="more-articles">
+                        <img src="../pictures/pic30.jpg" alt="">
+                        <p>Joining Hands: Oxfam Nepal's Second Phase Program in Dhangadhi</p>
+                    </div><!-- end issue -->
+                </a>
+                <a href="article7.html" style="text-decoration: none; color: black;">
+
+                    <div class="more-articles">
+                        <img src="../pictures/pic31.jpg" alt="">
+                        <p>Nepali Congress Ward Conferences organized throughout Dhangadi</p>
+                    </div><!-- end issue -->
+                </a>
+                <a href="article8.html" style="text-decoration: none; color: black;">
+
+                    <div class="more-articles">
+                        <img src="../pictures/pic35.jpg" alt="">
+                        <p>The WALK-A-THON program commencement, with the aim of increasing public awareness against
+                            drug
+                            addiction.</p>
+                    </div><!-- end issue -->
+                </a>
+                <a href="article9.html" style="text-decoration: none; color: black;">
+
+                    <div class="more-articles">
+                        <img src="../pictures/pic36.jpg" alt="">
+                        <p>Distribution of Tactile Learning Materials For Visually Impaired Children</p>
+                    </div><!-- end issue -->
+                </a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="copyrights">
+            <div class="container">
+                <div class="footer-distributed">
+                    <div class="footer-left">
+                        <p class="footer-links">
+                            <a href="https://www.facebook.com/PrakashBDeuba/"><img src="../icons/facebook.png"
+                                    style="width: 30px; height: 30px;" /></a>
+                            <a href="https://twitter.com/prakash06441314"><img src="../icons/twitter.png"
+                                    style="width: 30px; height: 30px;" /></a>
+                            <a href="https://www.instagram.com/prakashdeuba/?igshid=MzRlODBiNWFlZA%3D%3D"><img
+                                    src="../icons/instagram.png" style="width: 30px; height: 30px;" /></a>
+                            <a href="https://www.tiktok.com/@prakashdeubaforchange"><img src="../icons/tiktok.png"
+                                    style="width: 30px; height: 30px;filter: brightness(0) invert(1);" /></a>
+                            <a href="https://en.wikipedia.org/wiki/Prakash_Bahadur_Deuba"><img src="../icons/social.png"
+                                    style="width: 30px; height: 30px;filter: brightness(0) invert(1);" /></a>
+                            <a href="http://mopid.sudurpashchim.gov.np/"><img src="../icons/mantralaya.png"
+                                    style="width: 30px; height: 30px; border-radius: 50%;" /></a>
+                        </p>
+                        <p class="footer-company-name">All Rights Reserved. &copy; 2023 Crafted By
+                            :
+                            <a href="https://tackoom.com/" style="color: #004AAD;">Tackoom Digital Private Limited </a>
+                        </p>
+                    </div>
+
+                </div>
+            </div><!-- end container -->
+        </div><!-- end copyrights -->
+    </footer>
+
+    <!-- Add your JavaScript files here if needed -->
+</body>
+
+</html>
